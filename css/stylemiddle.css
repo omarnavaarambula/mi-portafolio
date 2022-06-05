@@ -35,13 +35,71 @@ h2{
     height: 240px;
    
 }
+.inp2{
+  text-align:center;
+  padding:7px 40px;
+  background:#197f5b;
+  border:0 none;
+  cursor:pointer;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  position: relative; top: 20px; left: 400px;
+  margin:auto;
+}
+.student{
+  text-align:center;
+width: 1410x;
+height: 700px;
+
+}
+h2{
+  text-align:center;
+  font-size: 40px;
+  position: absolute;
+}
+.stu-box1{
+  position: relative;
+  top: 21%; left:200px; 
+background:#f9f5f2;
+  height: 450px;
+  width: 450px;
+border-radius: 10px;  
+
+}
+img{
+  width: 150px;
+  height: auto;
+  margin: auto;
+  display: block;
+  cursor:pointer;
+}
+.stu-box2{
+  position: relative;
+  top: -43%; left:750px; 
+background:#f9f5f2;
+  height: 450px;
+  width: 450px;
+  border-radius: 10px;  
+}
+.centr{
+  text-align:center;
+  font-size: 40px;
+  position: absolute;
+  transform: translateX(365%) translateY(30%);
+}
 
 
+.centr2{
+  text-align:center;
+  font-size: 40px;
+  position: absolute;
+  transform: translateX(90%) translateY(-220%);
+}
 .contentContainer {
   background: withe;
   padding: 20px;
-  max-width: 800px;
-  min-width: 200px;
+  max-width: 900px;
+  min-width:350px;
   margin: auto;
 
 }
@@ -102,3 +160,66 @@ h2{
 .value-95 { width: 95%; }
 .value-100 { width: 100%; }
 
+.exper-b{
+
+  width: 1140px;
+  height: 500px;
+  background:#f9f5f2;
+  position: absolute;
+  transform: translateX(13%) translateY(0%);
+  display: flex;
+  flex-wrap: wrap;
+}
+.centr3{
+  text-align:center;
+  font-size: 40px;
+  position: absolute;
+  transform: translateX(200%) translateY(20%);
+}
+
+.cc1{
+  position: relative;
+  top: 30%; left: 50px; 
+border: 2.5px solid #f9f5f2 ;
+  height: 250px;
+  width: 200px;
+border-radius: 10px;  
+text-align:center;
+}
+
+.cc2{
+  position: relative;
+  top: 30%; left: 55px; 
+border: 2.5px solid #f9f5f2 ;
+  height: 250px;
+  width: 200px;
+border-radius: 10px;  
+text-align:center;
+}
+.cc3{
+  position: relative;
+  top: 30%; left: 60px; 
+border: 2.5px solid #f9f5f2 ;
+  height: 250px;
+  width: 200px;
+border-radius: 10px;  
+text-align:center;
+}
+.cc4{
+  position: relative;
+  top: 30%; left: 65px; 
+border: 2.5px solid #f9f5f2 ;
+  height: 250px;
+  width: 200px;
+border-radius: 10px;  
+text-align:center;
+}
+.cc5{
+  position: relative;
+  top: 30%; left: 70px; 
+border: 2.5px solid #f9f5f2 ;
+  height: 250px;
+  width: 200px;
+border-radius: 10px;  
+text-align:center;
+}
