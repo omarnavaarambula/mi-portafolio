@@ -4,7 +4,7 @@ body{
 }
 .menu {
 background: #197f5b;
-width: 1370px;
+width: 100%;
 display: flex;
 justify-content: right;
 flex-wrap: wrap;
@@ -36,13 +36,13 @@ color: orange !important;}
       transform: translateX(0%) translateY(-37%);      
     }
 .fondo{
-    width: 1410px;
-    height: 700px;
+    width: 100%;
+    height: 100%;
     background:#197f5b ;
   justify-content: center;
 }
 .trapecio-top {
-    width: 700px;
+    width: 100%;
     border-right: 355px solid transparent;
     border-left: 355px solid transparent;
     border-top: 300px solid #197f5b;
@@ -132,4 +132,61 @@ background-color: #f9f5f2;
 width: 80px;
 height: 80px;
 background-blend-mode: soft-light;
+}
+
+
+/* /////////////media */ 
+
+
+
+@media only screen 
+   and (min-width : 1370px) {
+    .menu {
+      width: 1410px;
+      height: 100px;
+      background:#197f5b ;
+    justify-content: center;
+}
+.fondo{
+
+  width: 1410px;
+  height: 700x;
+  background:#197f5b ;
+  
+}
+.trapecio-top {
+  width: 700px;
+  border-right: 355px solid transparent;
+  border-left: 355px solid transparent;
+  border-top: 300px solid #197f5b;
+  margin: auto;
+}
+
+
+
+
+
+/* ///////////// */
+
+@media only screen 
+   and (max-width : 900px) {
+    .menu {
+      background: #197f5b;
+      width: 900px;
+}
+
+@media only screen 
+   and (max-width : 850px) {
+    .menu {
+      width: 900px;
+      height: 400px;
+      background:#197f5b ;
+    justify-content: center;
+}
+.trapecio-top {
+  width: 400px;
+  border-right: 240px solid transparent;
+  border-left: 240px solid transparent;
+  border-top: 200px solid #197f5b;
+  margin: auto;
 }

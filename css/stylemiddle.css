@@ -46,10 +46,20 @@ h2{
   position: relative; top: 20px; left: 400px;
   margin:auto;
 }
+.centrest{
+ 
+  width: 1410px;
+  height: 100px;
+  
+
+}
 .student{
   text-align:center;
 width: 1410x;
-height: 700px;
+height: 500px;
+display: flex;
+
+;
 
 }
 h2{
@@ -57,13 +67,34 @@ h2{
   font-size: 40px;
   position: absolute;
 }
-.stu-box1{
-  position: relative;
-  top: 21%; left:200px; 
+h5{
+  text-align:center;
+  font-size: 50px;
+ 
+}
+
+
+
+
+
+
+.stu-box0{
+  /* position: relative;
+  top: 21%; left:200px;  */
 background:#f9f5f2;
   height: 450px;
   width: 450px;
 border-radius: 10px;  
+
+}
+.stu-box1{
+  /* position: relative;
+  top: 21%; left:200px;  */
+background:#f9f5f2;
+  height: 450px;
+  width: 450px;
+border-radius: 10px; 
+border: 15px; 
 
 }
 img{
@@ -74,19 +105,21 @@ img{
   cursor:pointer;
 }
 .stu-box2{
-  position: relative;
-  top: -43%; left:750px; 
+  /* position: relative;
+  top: -43%; left:750px;  */
 background:#f9f5f2;
   height: 450px;
   width: 450px;
   border-radius: 10px;  
 }
-.centr{
+
+/* .centr{
   text-align:center;
-  font-size: 40px;
-  position: absolute;
-  transform: translateX(365%) translateY(30%);
-}
+  width: 1410px;
+  height: 300px;
+  background: blue;
+
+} */
 
 
 .centr2{
@@ -198,7 +231,7 @@ text-align:center;
 }
 .cc3{
   position: relative;
-  top: 30%; left: 60px; 
+  top: 20%; left: 460px; 
 border: 2.5px solid #f9f5f2 ;
   height: 250px;
   width: 200px;
@@ -222,4 +255,14 @@ border: 2.5px solid #f9f5f2 ;
   width: 200px;
 border-radius: 10px;  
 text-align:center;
+}
+.downloadcv{
+  width: 175px;
+  height: 25px;
+  background:#197f5b;
+  border:0 none;
+  cursor:pointer;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+ margin:auto;
 }
