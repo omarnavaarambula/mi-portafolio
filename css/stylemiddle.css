@@ -58,6 +58,10 @@ h2{
 width: 1410x;
 height: 500px;
 display: flex;
+position: relative; 
+
+top: 20px; left: 150px;
+grid-gap: 15px;
 
 ;
 
@@ -82,7 +86,7 @@ h5{
   /* position: relative;
   top: 21%; left:200px;  */
 background:#f9f5f2;
-  height: 450px;
+  height: 390px;
   width: 450px;
 border-radius: 10px;  
 
@@ -91,10 +95,10 @@ border-radius: 10px;
   /* position: relative;
   top: 21%; left:200px;  */
 background:#f9f5f2;
-  height: 450px;
+  height: 390px;
   width: 450px;
 border-radius: 10px; 
-border: 15px; 
+border: 10px; 
 
 }
 img{
@@ -108,7 +112,7 @@ img{
   /* position: relative;
   top: -43%; left:750px;  */
 background:#f9f5f2;
-  height: 450px;
+  height: 390px;
   width: 450px;
   border-radius: 10px;  
 }
@@ -126,7 +130,8 @@ background:#f9f5f2;
   text-align:center;
   font-size: 40px;
   position: absolute;
-  transform: translateX(90%) translateY(-220%);
+  transform: 
+  translateX(160%) translateY(-190%);
 }
 .contentContainer {
   background: withe;
@@ -265,4 +270,32 @@ text-align:center;
   -webkit-border-radius: 10px;
   border-radius: 10px;
  margin:auto;
+}
+
+.istg{
+  z-index: 3;
+  width: 90px;
+  height: 90px;
+  filter: invert(99%) sepia(71%) saturate(0%) hue-rotate(174deg) brightness(112%) contrast(100%);
+  position: relative;
+  top: 575px; left: 270px;
+
+}
+.itwt{
+  z-index: 3;
+  width: 90px;
+  height: 90px;
+  filter: invert(100%) sepia(71%) saturate(0%) hue-rotate(174deg) brightness(112%) contrast(100%);
+  position: relative;
+  top: 655px; left: -230px;
+
+}
+.imin{
+  z-index: 3;
+  width: 65px;
+  height: 65px;
+  filter: invert(100%) sepia(71%) saturate(0%) hue-rotate(174deg) brightness(112%) contrast(100%);
+  position: relative;
+  top: 765px; left: 130px;
+
 }
