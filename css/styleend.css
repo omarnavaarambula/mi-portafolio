@@ -1,19 +1,15 @@
-.backlast{
-width: 1410px;
-height: 500px;
-}
-.port-end{
-    width: 1410px;
-    height: 1000px;
-}
+
+
 
 .img-chi{
-    width: 1140px;
-    height: 700px;
-position: absolute;
-transform: translateX(13%) translateY(30%);
+  
 display: flex;
 flex-wrap: wrap;
+padding: 20px;
+width: 100%;
+height: 750px;
+ margin: auto;
+text-align: center;
 
 
 }
@@ -25,10 +21,13 @@ flex-wrap: wrap;
   }
 
 .miport{
+  width: 100%;
+  height: 40px;
+  display: flex;
     flex-wrap: wrap;
     margin: auto;
-    position: absolute;
-    transform: translateX(117%) translateY(85%);
+    justify-content: center;
+  
 }
 .miport li a{
     text-decoration: none;
@@ -100,15 +99,20 @@ flex-wrap: wrap;
 }
 
 .cont{
-
-width: 1410px;
+display: flex;
+width: 100%;
     height: 600px;
+    text-align: center;
+flex-wrap: wrap;
 
-}
+
+
+
+
+  }
 
 .cont-box1{
-  position: relative;
-  top: 117px; left:350px; 
+
 background:#f9f5f2;
   height: 300px;
   width: 300px;
@@ -117,8 +121,7 @@ border-radius: 135px;
 }
 
 .cont-box2{
-  position: relative;
-  top: -182px; left:800px; 
+
 background:#f9f5f2;
   height: 300px;
   width: 300px;
@@ -127,8 +130,7 @@ background:#f9f5f2;
 .centr{
   text-align:center;
   font-size: 40px;
-  position: absolute;
-  transform: translateX(365%) translateY(30%);
+ 
 }
 
 .phon{
@@ -156,7 +158,7 @@ background:#f9f5f2;
 .endin{
 
   background: #197f5b;
-  width: 1410px;
+  width: 100%;
   height: 200px;
   font-size: 35px;
   text-align:center;
@@ -165,4 +167,13 @@ background:#f9f5f2;
 }
 .color-end{
   color:white;
+}
+.centrest2{
+ 
+  width: 100%;
+  height: 80px;
+  text-align:center;
+
+  
+
 }
