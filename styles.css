@@ -1207,7 +1207,7 @@ nav ul li a p{
     }
     
     .Content_email p:nth-child(3){
-        color: #f9f5f2 ;
+        color: rgb(128, 128, 128) ;
     }
 
     .Content_final{
