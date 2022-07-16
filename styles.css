@@ -630,7 +630,7 @@ nav ul li a p{
     nav ul{
     
         top: 0;        
-        padding: 3em 1em;
+    
         flex-direction: row;
         justify-content: flex-end;
         margin: auto;
